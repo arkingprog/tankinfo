@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TankInfo</title>
+
+    <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script src="bower_components/bootstrap-material-design/dist/js/material.js"></script>
+    <script src="bower_components/bootstrap-material-design/dist/js/ripples.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.css">
+
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-material-design/dist/css/ripples.css">
+
+
+
+    <link rel="stylesheet" href="css/custom.css" media="screen" title="no title" charset="utf-8">
+
+  </head>
+
+  <body>
+  <div class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="javascript:void(0)">TankInfo MD</a>
+      </div>
+      <div class="navbar-collapse collapse navbar-responsive-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="javascript:void(0)">Active</a></li>
+          <li><a href="javascript:void(0)">Link</a></li>
+          <li class="dropdown">
+            <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+              <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="javascript:void(0)">Action</a></li>
+              <li><a href="javascript:void(0)">Another action</a></li>
+              <li><a href="javascript:void(0)">Something else here</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Dropdown header</li>
+              <li><a href="javascript:void(0)">Separated link</a></li>
+              <li><a href="javascript:void(0)">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control col-md-8" placeholder="Search">
+          </div>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="javascript:void(0)">Link</a></li>
+          <li class="dropdown">
+            <a href="#" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+              <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="javascript:void(0)">Action</a></li>
+              <li><a href="javascript:void(0)">Another action</a></li>
+              <li><a href="javascript:void(0)">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="javascript:void(0)">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+<h3 class="text-center">Выбор по нации</h3>
+  <div class="row row-centered">
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/china_small.png" alt="Китай">
+      <div class="text-center">Китай</div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/czech_small.png" alt="Чехия">
+      <div class="text-center">Чехия</div>
+    </div>
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/france_small.png" alt="франция">
+      <div class="text-center">Франция</div>
+
+    </div>
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/germany_small.png" alt="Германия">
+      <div class="text-center">Германия</div>
+
+    </div>
+  </div>
+  <br />
+  <div class="row row-centered">
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/japan_small.png" alt="Япония">
+      <div class="text-center">Япония</div>
+
+    </div>
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/uk_small.png" alt="Великобритания">
+      <div class="text-center">Великобритания</div>
+
+    </div>
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/usa_small.png" alt="США">
+      <div class="text-center">США</div>
+
+    </div>
+    <div class="col-sm-3 col-md-3 col-centered" onclick="javascript:location.href='nationTank.html'">
+      <img class="center-block" src="./image/ussr_small.png" alt="СССР">
+      <div class="text-center">СССР</div>
+
+    </div>
+  </div>
+<h3 class="text-center">Выбор по классу</h3>
+
+
+</body>
+  <script>
+    $(function () {
+      $.material.init();
+    });
+  </script>
+</html>

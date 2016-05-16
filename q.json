@@ -1,0 +1,386 @@
+{
+  "status": "ok",
+  "meta": {
+    "count": 1
+  },
+  "data": {
+    "1": {
+      "radios": [
+        1287,
+        775
+      ],
+      "is_premium": false,
+      "tag": "R04_T-34",
+      "images": {
+        "small_icon": "http:\/\/api.worldoftanks.ru\/static\/2.39.0\/wot\/encyclopedia\/vehicle\/small\/ussr-R04_T-34.png",
+        "contour_icon": "http:\/\/api.worldoftanks.ru\/static\/2.39.0\/wot\/encyclopedia\/vehicle\/contour\/ussr-R04_T-34.png",
+        "big_icon": "http:\/\/api.worldoftanks.ru\/static\/2.39.0\/wot\/encyclopedia\/vehicle\/ussr-R04_T-34.png"
+      },
+      "tank_id": 1,
+      "suspensions": [
+        258,
+        2
+      ],
+      "short_name": "Т-34",
+      "engines": [
+        261,
+        5
+      ],
+      "crew": [
+        {
+          "roles": {
+            "commander": "командир экипажа",
+            "gunner": "наводчик"
+          },
+          "member_id": "commander"
+        },
+        {
+          "roles": {
+            "radioman": "радист"
+          },
+          "member_id": "radioman"
+        },
+        {
+          "roles": {
+            "driver": "механик-водитель"
+          },
+          "member_id": "driver"
+        },
+        {
+          "roles": {
+            "loader": "заряжающий"
+          },
+          "member_id": "loader"
+        }
+      ],
+      "type": "mediumTank",
+      "guns": [
+        4,
+        1284,
+        1540,
+        516
+      ],
+      "description": "Легенда советских бронетанковых войск. Самый массовый советский танк Второй мировой войны. С 1940 по 1944 год на различных заводах СССР было изготовлено 33805 машин трёх модификаций.",
+      "provisions": [
+        763,
+        12795,
+        9211,
+        1275,
+        15355,
+        26107,
+        26363,
+        7419,
+        26619,
+        6139,
+        3323,
+        6651,
+        1787,
+        14843,
+        1019,
+        9979,
+        3067,
+        14331,
+        11771,
+        8699,
+        12283,
+        251,
+        1531,
+        507,
+        2553,
+        6905,
+        6649,
+        7673,
+        249,
+        761,
+        1785,
+        1529,
+        5625,
+        1273,
+        4857
+      ],
+      "is_premium_igr": false,
+      "next_tanks": {
+        "2561": 27825,
+        "16641": 34210,
+        "12289": 29660,
+        "257": 23500
+      },
+      "modules_tree": {
+        "258": {
+          "name": "Т-34 обр. 1943 г.",
+          "next_modules": null,
+          "next_tanks": null,
+          "is_default": false,
+          "price_xp": 1940,
+          "price_credit": 7960,
+          "module_id": 258,
+          "type": "vehicleChassis"
+        },
+        "3": {
+          "name": "Т-34 обр. 1940 г.",
+          "next_modules": [
+            259
+          ],
+          "next_tanks": null,
+          "is_default": true,
+          "price_xp": 0,
+          "price_credit": 3980,
+          "module_id": 3,
+          "type": "vehicleTurret"
+        },
+        "1284": {
+          "name": "57 мм ЗиС-4",
+          "next_modules": null,
+          "next_tanks": null,
+          "is_default": false,
+          "price_xp": 2200,
+          "price_credit": 41480,
+          "module_id": 1284,
+          "type": "vehicleGun"
+        },
+        "5": {
+          "name": "В-2",
+          "next_modules": [
+            261
+          ],
+          "next_tanks": null,
+          "is_default": true,
+          "price_xp": 0,
+          "price_credit": 18750,
+          "module_id": 5,
+          "type": "vehicleEngine"
+        },
+        "775": {
+          "name": "9Р",
+          "next_modules": [
+            1287
+          ],
+          "next_tanks": null,
+          "is_default": true,
+          "price_xp": 0,
+          "price_credit": 1980,
+          "module_id": 775,
+          "type": "vehicleRadio"
+        },
+        "1287": {
+          "name": "9РМ",
+          "next_modules": null,
+          "next_tanks": [
+            16641
+          ],
+          "is_default": false,
+          "price_xp": 4040,
+          "price_credit": 24240,
+          "module_id": 1287,
+          "type": "vehicleRadio"
+        },
+        "2": {
+          "name": "Т-34 обр. 1941 г.",
+          "next_modules": [
+            258
+          ],
+          "next_tanks": null,
+          "is_default": true,
+          "price_xp": 0,
+          "price_credit": 2680,
+          "module_id": 2,
+          "type": "vehicleChassis"
+        },
+        "516": {
+          "name": "76 мм Ф-34",
+          "next_modules": [
+            1284
+          ],
+          "next_tanks": [
+            12289
+          ],
+          "is_default": false,
+          "price_xp": 1650,
+          "price_credit": 30550,
+          "module_id": 516,
+          "type": "vehicleGun"
+        },
+        "259": {
+          "name": "Т-34 обр. 1942 г.",
+          "next_modules": [
+            1540
+          ],
+          "next_tanks": null,
+          "is_default": false,
+          "price_xp": 1735,
+          "price_credit": 10000,
+          "module_id": 259,
+          "type": "vehicleTurret"
+        },
+        "1540": {
+          "name": "76 мм С-54",
+          "next_modules": null,
+          "next_tanks": [
+            257,
+            2561
+          ],
+          "is_default": false,
+          "price_xp": 4300,
+          "price_credit": 40130,
+          "module_id": 1540,
+          "type": "vehicleGun"
+        },
+        "4": {
+          "name": "76 мм Л-11",
+          "next_modules": [
+            516
+          ],
+          "next_tanks": null,
+          "is_default": true,
+          "price_xp": 0,
+          "price_credit": 25990,
+          "module_id": 4,
+          "type": "vehicleGun"
+        },
+        "261": {
+          "name": "В-2-34",
+          "next_modules": null,
+          "next_tanks": null,
+          "is_default": false,
+          "price_xp": 5000,
+          "price_credit": 27860,
+          "module_id": 261,
+          "type": "vehicleEngine"
+        }
+      },
+      "nation": "ussr",
+      "tier": 5,
+      "prices_xp": {
+        "9473": 13000,
+        "15873": 16200,
+        "2049": 11500
+      },
+      "is_gift": false,
+      "name": "Т-34",
+      "price_gold": 0,
+      "price_credit": 356700,
+      "default_profile": {
+        "engine": {
+          "name": "В-2",
+          "weight": 750,
+          "power": 480,
+          "tag": "V-2",
+          "fire_chance": 0.15,
+          "tier": 5
+        },
+        "max_ammo": 77,
+        "weight": 27940,
+        "armor": {
+          "turret": {
+            "front": 45,
+            "sides": 45,
+            "rear": 45
+          },
+          "hull": {
+            "front": 45,
+            "sides": 45,
+            "rear": 40
+          }
+        },
+        "hp": 400,
+        "modules": {
+          "gun_id": 4,
+          "suspension_id": 2,
+          "radio_id": 775,
+          "engine_id": 5,
+          "turret_id": 3
+        },
+        "gun": {
+          "move_down_arc": 6,
+          "caliber": 76,
+          "name": "76 мм Л-11",
+          "weight": 660,
+          "move_up_arc": 17,
+          "fire_rate": 10.0,
+          "dispersion": 0.51,
+          "tag": "_76mm_L-11",
+          "traverse_speed": 39,
+          "reload_time": 4.89,
+          "tier": 4,
+          "aim_time": 2.9
+        },
+        "turret": {
+          "name": "Т-34 обр. 1940 г.",
+          "weight": 3200,
+          "view_range": 320,
+          "traverse_left_arc": 180,
+          "hp": 80,
+          "tag": "T-34_mod_1940",
+          "traverse_speed": 40,
+          "tier": 4,
+          "traverse_right_arc": 180
+        },
+        "hull_weight": 15000,
+        "radio": {
+          "tier": 4,
+          "tag": "_9R",
+          "weight": 80,
+          "name": "9Р",
+          "signal_range": 325
+        },
+        "ammo": [
+          {
+            "type": "ARMOR_PIERCING",
+            "penetration": [
+              51,
+              68,
+              85
+            ],
+            "damage": [
+              83,
+              110,
+              138
+            ]
+          },
+          {
+            "type": "HOLLOW_CHARGE",
+            "penetration": [
+              56,
+              75,
+              94
+            ],
+            "damage": [
+              83,
+              110,
+              138
+            ]
+          },
+          {
+            "type": "HIGH_EXPLOSIVE",
+            "penetration": [
+              29,
+              38,
+              48
+            ],
+            "damage": [
+              117,
+              156,
+              195
+            ]
+          }
+        ],
+        "speed_forward": 56,
+        "hull_hp": 320,
+        "suspension": {
+          "name": "Т-34 обр. 1941 г.",
+          "weight": 8000,
+          "load_limit": 30000,
+          "tag": "T-34_mod_1941",
+          "traverse_speed": 37,
+          "tier": 4
+        },
+        "speed_backward": 20,
+        "max_weight": 30000
+      },
+      "turrets": [
+        259,
+        3
+      ]
+    }
+  }
+}
