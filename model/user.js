@@ -25,14 +25,12 @@ var User=function(param){
 
 
     function auth(){
-    if(that.expires_at*1000-Date.now()>0)
-        return true;
-    else
-        return false;
+        if(that.expires_at*1000-Date.now()>0)
+            return true;
+        else
+            return false;
     }
 
 };
-
-
 
 module.exports=User;
